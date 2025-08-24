@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function world(){
+            console.log("hello");
+        }
+        world();
+        
+        function add(a,b){
+            console.log(a+b);
+        }
+        add(10,20);
+
+        function add(a,b){
+            console.log(a-b);
+        }
+        add(10,20);
+
+        function add(a,b){
+            console.log(a*b);
+        }
+        add(10,20);
+
+        function add(a,b){
+            console.log(a/b);
+        }
+        add(10,20);
+
+        var c=()=>{
+            console.log("hello");
+        }
+        c();
+
+        var c=()=> console.log("hello");
+        c();
+
+        var c=(a,b)=>{
+            console.log(a+b);
+            console.log(a-b);
+            console.log(a*b);
+            console.log(a/b);
+        }
+        c(10,20);
+    </script>
+</body>
+</html>
